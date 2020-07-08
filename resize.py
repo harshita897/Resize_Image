@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('eye.png')
+img = cv2.imread('image.png')
 
 scale_percent = 2.50
 width = int(img.shape[1]*scale_percent)
